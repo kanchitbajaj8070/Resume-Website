@@ -145,7 +145,7 @@ main{
 #about
 {
 
-background: #fffeee;
+background: rgba(66, 133, 140,.2);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -185,7 +185,7 @@ section
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(205,255,205,.3);
+    background-color: rgba(93, 163, 153,.4);
 }
 .skill-item
 {
@@ -242,7 +242,7 @@ section
     font-size: 8vh;
     margin-left: 4px;
     vertical-align: center;
-    color: steelblue;
+    color: white;
     display: inline;
     padding-top: 2vh;
 }
@@ -253,8 +253,8 @@ section
 }
 #experience
 {
- 
-    background: rgba(0,22,255,.1);
+
+    background: rgba(07,24,32,.8);
 text-align: center;
     align-content: center;
 }
@@ -264,7 +264,7 @@ text-align: center;
     display: inline;
     font-family:"Sitka Small";
     font-size: 6vh;
-    color: royalblue;
+    color: #fffeee !important;
     font-weight: bold;
     line-height: 7vh;
 }
@@ -277,6 +277,7 @@ text-align: center;
 .experience-heading
 {
     padding-top: 10px;
+
 }
 .timeline
 {
@@ -287,7 +288,8 @@ padding-top: 20px;
 }
 .timeline-box-header
 {   background: rgba(138,43,226,.2);
-    border-bottom: 1px solid blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
 
 }
 .timeline-divider
@@ -297,7 +299,7 @@ padding-top: 20px;
     height: 90%;
     top:6%;
     left: 50%;
-    border: 1px dashed rgba(0,0,0,.8);
+    border: 2px dashed rgba(0,0,0,.8);
 }
 .timeline-box:nth-child(2n)::before
 {
@@ -332,16 +334,17 @@ padding-top: 20px;
     display: block;
     z-index: 19992;
     transform: rotate(90deg );
+   color: rgba(255,255,255,.7);
 }
 .timeline-box
 {
     background-color: rgba(255,255,255,.8);
     position: relative;
-    border: 1px solid blueviolet;
+    border: 2px solid blueviolet;
     width: 40%;
-    border-radius: 2%;
-
+    border-radius: 10px;
     margin: 5px;
+
 }
 .timeline-box:nth-child(2n)
 {
@@ -358,6 +361,7 @@ padding-top: 20px;
     width: 70%;
     margin-left: auto;
     text-align: right;
+    border-radius: 5%;
 }
 .timelinebox-title
 {
@@ -389,6 +393,7 @@ padding-top: 20px;
 }
 .timelinebox-left
 {   width:27%;
+    border-radius: 5%;
     margin-right: auto;
     display: inline-block;
     justify-content: left;
@@ -412,7 +417,7 @@ height: 7.5vh;
 }
 #education
 {
-    background-color: rgba(255,205,205,.3);
+    background-color: rgba(233, 250, 227,.7);
 }
 .education-heading
 {
@@ -423,7 +428,7 @@ height: 7.5vh;
 {
     justify-content: center;
     text-align: center;
-    background-color: rgba(31,200,11,.1);
+    background-color: rgba(239, 241, 197,.5);
     padding-bottom: 20px;
 }
 .text-justify
