@@ -287,9 +287,9 @@ padding-top: 20px;
     padding-bottom: 20px;
 }
 .timeline-box-header
-{   background: rgba(138,43,226,.2);
-    border: 1px solid blueviolet;
-    border-radius: 10px;
+{   background: rgba(255,244,255,.7);
+    border: 1px solid rgba(255,255,255,.9);
+border-radius: 10px;
 
 }
 .timeline-divider
@@ -340,9 +340,10 @@ padding-top: 20px;
 {
     background-color: rgba(255,255,255,.8);
     position: relative;
-    border: 2px solid blueviolet;
-    width: 40%;
+    border: 1px solid rgba(255,255,255,.9);
     border-radius: 10px;
+    box-shadow: 2px 2px 2px white;
+    width: 40%;
     margin: 5px;
 
 }
@@ -430,6 +431,8 @@ height: 7.5vh;
     text-align: center;
     background-color: rgba(239, 241, 197,.5);
     padding-bottom: 20px;
+align-content: center;
+    align-items: center;
 }
 .text-justify
 {
@@ -452,14 +455,7 @@ height: 7.5vh;
     padding-top: 20px;
 }
 @media screen and (max-width: 768px)
-{ #about
 {
-    width: 90%;
-}
-    .name-heading {
-        font-size: 8px;
-    }
-
     .timelinebox-title
     {
         font-size: 12px;
